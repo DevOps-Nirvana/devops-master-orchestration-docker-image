@@ -118,7 +118,7 @@ RUN apk -v --update add \
     git clone https://github.com/tfutils/tfenv.git ~/.tfenv && \
     ln -s /root/.tfenv/bin/terraform /usr/local/bin/ && \
     ln -s /root/.tfenv/bin/tfenv /usr/local/bin/ && \
-    tfenv install 0.13.4 && tfenv use 0.13.4 && \
+    tfenv install 0.14.6 && tfenv use 0.14.6 && \
   # This must be upgraded first, the others use it as a dependancy and sometimes fail to build otherwise
     pip3 install --upgrade setuptools &&  \
   # Install AWSCLI, S3CMD, and python file-type detection, useful for S3 file type auto-detection
